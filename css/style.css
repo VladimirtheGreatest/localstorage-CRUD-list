@@ -1,0 +1,34 @@
+#creditsList{
+    list-style: none;
+  }
+  #creditsList li{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+  }
+  #output{
+    display:inline; 
+  }
+  
+  .remove_item{
+    color: red;
+    padding: 10px 5px 10px 10px;  
+  }
+  
+  .clickeable{
+    cursor: pointer;
+  }
+  
+  .update_icon{
+    color: green;
+    padding: 10px 10px 10px 0;
+    margin-left : 100px;
+  }
+  
+  .show{
+    display: block;
+  }
+  
+  .hide{
+    display: none;
+  }
